@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+html, body, #__next { height: 100%; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: #0b1020; color: #e8ecf1; }
+a { color: #8ab4f8; }
+input, select, button { font: inherit; }
+button { cursor: pointer; }
+input, select, button { padding: 8px; border-radius: 6px; border: 1px solid #2b3248; background: #12182b; color: #e8edf6; }
+.card { background: #121a2b; border: 1px solid #1c2740; border-radius: 12px; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.btn { background: #2563eb; color: white; border: none; padding: 10px 14px; border-radius: 8px; cursor: pointer; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.input { width: 100%; padding: 10px 12px; border: 1px solid #24314f; background: #0f1627; color: #e8ecf1; border-radius: 8px; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.grid { display: grid; gap: 16px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border-bottom: 1px solid #1f2a44; padding: 8px 10px; text-align: left; }
+.badge { padding: 2px 6px; border-radius: 6px; border: 1px solid #2b3a60; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }

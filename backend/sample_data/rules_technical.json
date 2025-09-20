@@ -1,0 +1,26 @@
+{
+  "general": [
+    {
+      "id": "TECH-001",
+      "type": "threshold",
+      "field": "paid_amount_aed",
+      "operator": ">",
+      "value": 0,
+      "severity": "low",
+      "message": "Paid amount must be positive",
+      "error_type": "Technical error",
+      "recommendation": "Ensure paid_amount_aed is greater than zero for payable claims."
+    },
+    {
+      "id": "TECH-002",
+      "type": "presence",
+      "field": "approval_number",
+      "operator": "!=",
+      "value": "",
+      "severity": "medium",
+      "message": "Approval number is required",
+      "error_type": "Technical error",
+      "recommendation": "Provide a valid approval number when required by policy."
+    }
+  ]
+}

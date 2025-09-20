@@ -1,0 +1,15 @@
+{
+  "diagnosis": [
+    {
+      "id": "MED-001",
+      "type": "code-check",
+      "field": "service_code",
+      "operator": "in",
+      "value": ["99213", "99214", "99285"],
+      "severity": "low",
+      "message": "Service code must be one of allowed CPTs",
+      "error_type": "Medical error",
+      "recommendation": "Review CPT against payer fee schedule."
+    }
+  ]
+}
