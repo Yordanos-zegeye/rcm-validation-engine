@@ -13,7 +13,7 @@ This prototype ingests claims, applies technical/medical rules (static + LLM), a
 1. Create venv and install deps
 
 ```powershell
-cd "c:\Users\yordanos\Desktop\please work\backend"
+cd rcm-validation-engine
 python -m venv .venv
 . .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -88,7 +88,7 @@ npm run dev
 To quickly try end-to-end with sample data:
 
 ```powershell
-Set-Location -Path "c:\Users\yordanos\Desktop\please work\backend"
+Set-Location -Path "c:\Users\yordanos\Desktop\rcm-validation-engine\backend"
 . .\.venv\Scripts\Activate.ps1
 # (optional) use Neon DB
 # $env:DATABASE_URL = "postgresql://..."
