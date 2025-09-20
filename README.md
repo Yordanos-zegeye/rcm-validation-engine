@@ -52,7 +52,7 @@ Env vars (optional):
 1. Install deps
 
 ```powershell
-cd "c:\Users\yordanos\Desktop\please work\frontend"
+cd "c:\Users\yordanos\Desktop\rcm-validation-engine\frontend"
 npm install
 ```
 
